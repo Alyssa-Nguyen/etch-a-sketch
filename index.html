@@ -8,16 +8,19 @@
     </head>
     <body>
         <h1>Etch A Sketch</h1>
-        <div class="container">
-            <button class="input">Create a Grid </button>
-            <br>
-            <br>
-    
+        <h5>Click on Create a Grid to set your grid size, then select the color you want to draw!</h5>
+      
+        <div class="containerMain">
+            <div class="containerButton">
+                <button class="input" type="number" min="2" max="100">Create a Grid </button>
+                <button class="reset">Reset Grid</button>
+                <button class="hover" id="hoverBlack">Black</button>
+                <button class="hover" id="hoverPink">Pink</button>
+            </div>          
+
             <div class="gridContainer">
     
             </div>
-
-
 
         </div>
 
